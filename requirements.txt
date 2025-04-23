@@ -1,3 +1,11 @@
+# Upgrade pip first (optional, helps with installer issues)
+--upgrade pip
+
+# Core dependencies
+streamlit
+joblib
+
+# Data science libraries
 pandas==1.5.3
 numpy==1.24.2
 matplotlib==3.7.1
